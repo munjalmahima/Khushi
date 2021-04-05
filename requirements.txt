@@ -1,0 +1,7 @@
+Flask
+Flask_RESTful
+gunicorn
+pandas
+nltk
+re
+json

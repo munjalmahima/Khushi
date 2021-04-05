@@ -1,0 +1,1 @@
+web:gunicorn Khushi_Output:app
