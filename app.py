@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 import pandas as pd
 df = pd.read_excel('Dataset.xlsx')
 import json
+import re
 d={}
 def Output(user_input):
   user_input=user_input.lower()
@@ -42,4 +43,4 @@ class Khushi(Resource):
 api.add_resource(Khushi,'/Name/<string:name>')
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
