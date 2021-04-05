@@ -1,1 +1,1 @@
-web:gunicorn Khushi_Output:app
+web:gunicorn app:app
