@@ -3,5 +3,4 @@ Flask_RESTful
 gunicorn
 pandas
 nltk
-xlrd
 openpyxl
