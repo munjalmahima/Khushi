@@ -4,7 +4,7 @@ nltk.download('punkt')
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize
 import pandas as pd
-df = pd.read_excel('Dataset.xlsx')
+df = pd.read_excel('Dataset.xls')
 import json
 import re
 d={}
