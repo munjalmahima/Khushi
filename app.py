@@ -1548,7 +1548,7 @@ uploaded = files.upload()
 
 import pandas as pd
 import io
-df = pd.read_excel(io.BytesIO(uploaded['Dataset.xls']))
+df = pd.read_excel(io.BytesIO(uploaded['Dataset.xlsx']))
 df
 
 """## VADER MODEL FOR SENTIMENT ANALYSIS"""
